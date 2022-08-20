@@ -346,25 +346,25 @@
         <section>
           <p>comment:</p>
           <form action="">
-            <input type="text" placeholder="name" />
-            <input type="text" placeholder="family" />
+            <input type="text" name="name" placeholder="name" />
+            <input type="text" name="family" placeholder="family" />
             <br />
-            <input type="text" placeholder="email" />
+            <input type="text" name="email" placeholder="email" />
             <br />
             <label for="save-email">save my email</label>
             <input type="checkbox" name="save-email" id="save-email" />
             <p>Your satisfaction with our site :</p>
             <lable>less of 30%</lable>
-            <input type="radio" name="satisfaction" />
+            <input type="radio" name="satisfaction" value="-30"/>
             <br />
             <lable>30% - 50%</lable>
-            <input type="radio" name="satisfaction"/>
+            <input type="radio" name="satisfaction" value="30-50"/>
             <br />
             <lable>51% - 80%</lable>
-            <input type="radio" name="satisfaction"/>
+            <input type="radio" name="satisfaction" value="51-80"/>
             <br />
             <lable>more than 80%</lable>
-            <input type="radio" name="satisfaction"/>
+            <input type="radio" name="satisfaction" value="+80"/>
             <br /><br />
             <textarea name="comment" id="comment" cols="45" rows="4">
 comment...</textarea
